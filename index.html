@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    <div>Thao chill guy</div>
-    <div>Just a chill guy</div>
-</body>
+  </head>
+  <body class="flex justify-center">
+    <div class="main min-h-screen overflow-auto flex flex-col max-w-[700px] py-14 gap-y-10">
+      <div class="head">
+        <div class="flex items-center justify-center gap-x-10">
+          <div class="flex flex-col flex-1 gap-y-4">
+            <div class="text-4xl">Nguyen Trong Thao</div>
+            <div class="text-3xl text-[#6b6b6b]">
+              Dev - just a chill guy from Viet Nam
+            </div>
+          </div>
+          <div class="w-[200px]">
+            <img
+              src="./chill_guy.jpeg"
+              alt=""
+              class="rounded-full w-[200px] h-[200px]"
+            />
+          </div>
+        </div>
+        <div class="navigator relative flex justify-center gap-x-10 mt-10">
+          <div>home</div>
+          <div>newsletter</div>
+          <div>blog</div>
+          <div>facebook/linkedin</div>
+        </div>
+      </div>
+
+      <div class="intro">
+        <p class="text-center">
+          Hi! I'm Trong Thao, who is just a chill guy. I am a software engineer! 💖
+        </p>
+      </div>
+
+      <div class="footer mt-auto flex flex-col items-center gap-y-2">
+        <div>View posts by tag</div>
+        <div class="flex justify-center gap-x-5">
+          <div>#intro</div>
+          <div>#chill_guy</div>
+        </div>
+        <div>© 2024 Trong Thao !</div>
+      </div>
+    </div>
+  </body>
 </html>
