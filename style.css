@@ -2,7 +2,7 @@ body {
   background-image: linear-gradient(to right top, #ebf4f5, #d9e8ff, #e5f0ff, #c7deff);
   font-family: "Edu TAS Beginner", cursive;
   font-optical-sizing: auto;
-  font-size: 24px;
+  /* font-size: 24px; */
 
 
 }
